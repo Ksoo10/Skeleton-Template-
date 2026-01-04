@@ -1,0 +1,105 @@
+/*General Styling Start*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+    /* Instead of writing each one separately */
+  body { font-family: 'Nunito', sans-serif;}
+    
+:is(h1, h2) {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+}
+/*General Styling End*/
+
+/*Form Styling Start*/
+ form.contact-us{
+max-width: 350px;
+margin: auto;
+padding: 10px 20px;
+background: #f4f7f8;
+border-radius: 8px;
+    
+ }
+
+   .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.item-wrapper {
+margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0 auto;
+  outline: 0;
+ padding: 5px 0;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin: 0;
+  color: #5fcf80;
+}
+
+.btn-wrapper {
+display: flex;
+justify-content: center;
+margin: .75rem 0;
+
+}
+
+.contact-us-btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #5fcf80;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+/*Form Styling End*/
+</style>
+<!-- Form Structure -->
+  <form action="" method="post" class="contact-us">
+    <div class="form-wrapper">
+      <div class="item-wrapper">
+        <h2 class="form-sub-title">Contact Us</h2>
+      </div>
+ <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name" required>
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name" required>
+     <label for="mail">Email:</label>
+    <input type="email" id="mail" name="user_email" />
+         <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="user_phone" />
+        <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+    </div>
+    <div class="btn-wrapper">
+    <button type="submit" class="contact-us-btn">Send your message</button>
+    </div>
+  </form>
+<!-- Form Structure -->
+  
