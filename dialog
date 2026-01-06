@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dialog</title>
+</head>
+<body>
+
+  <style>
+
+dialog#thank-you {
+    border: none;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+    background: #fff;;
+    opacity: 1;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1050;
+    width: 100%;
+}
+
+h1.dialog-title {
+    margin-top: 0;
+}
+.dialog-container {
+    margin: 0 auto;
+    padding: .5rem 2rem 2rem;
+}
+
+ button.open-btn,button.close-btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #5fcf80;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+</style>
+<!-- Dialog Box Structure -->
+<dialog id="thank-you"  closedby="any">
+<div class="dialog-container">
+  <h1 class="dialog-title">Thank you for you submission</h1>
+<p>Thank you for contacting us. We will get back to you shortly.</p>
+<button class="close-btn">Close</button>
+</div>
+</dialog>
+<button class="open-btn">Open</button>
+<!-- Dialog Box Structure -->
+</body>
+<script>
+  const dialog = document.querySelector("dialog");
+  const showButton = document .querySelector(".open-btn");
+  const closeButton = document .querySelector(".close-btn");
+showButton.addEventListener("click", () => {
+  dialog.showModal();
+});
+closeButton.addEventListener("click", () => {
+  dialog.close();
+});
+</script>
+<!-- Dialog Box Structure -->
+</html>
+
