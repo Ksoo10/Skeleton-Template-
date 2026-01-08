@@ -1,0 +1,38 @@
+    <!--Service Section-->
+    <section id="section-2">
+      <div class="container">
+        <h2 class="serivce-title">UPDATE TITLE</h2>
+      </div>
+      <div class="container">
+        <div class="flexbox-wrapper">
+          <div class="card-item">
+            <h3 class="card-title">UPDATE TITLE</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolor
+              non earum totam reprehenderit beatae ab recusandae? Error, velit?
+              Quae nobis quisquam veniam voluptates neque aspernatur corporis
+              quis cupiditate natus.
+            </p>
+          </div>
+          <div class="card-item">
+            <h3 class="card-title">UPDATE TITLE</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolor
+              non earum totam reprehenderit beatae ab recusandae? Error, velit?
+              Quae nobis quisquam veniam voluptates neque aspernatur corporis
+              quis cupiditate natus.
+            </p>
+          </div>
+          <div class="card-item">
+            <h3 class="card-title">UPDATE TITLE</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolor
+              non earum totam reprehenderit beatae ab recusandae? Error, velit?
+              Quae nobis quisquam veniam voluptates neque aspernatur corporis
+              quis cupiditate natus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+        <!--Service Section-->
